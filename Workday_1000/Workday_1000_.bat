@@ -1,0 +1,1 @@
+Powershell.exe -ExecutionPolicy Bypass -File  "\\10.47.17.20\pmi-dbo\SQL_script\Workday_1000\Z_Liquid_report.ps1" Enable -PSRemoting 
