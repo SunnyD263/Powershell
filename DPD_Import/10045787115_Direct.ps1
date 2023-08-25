@@ -8,10 +8,7 @@ $LastUP = Get-Content -Path $Updpath
 $Datum = Get-Date 
 $Day = New-TimeSpan -Start $Datum  -End $LastUP
 $Day= $Day.Days - 1
-$SQLServer = "10.58.164.129"
 $SQLDBName = "DPD_DB"
-$uid ="sqczpmip1_app"
-$passw = "lwjfh/ezt.34Hf"
 $table="PMIdb"
 
 
